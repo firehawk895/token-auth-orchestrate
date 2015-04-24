@@ -1,0 +1,20 @@
+{
+  "name": "token-auth-orchestrate",
+  "version": "1.0.0",
+  "description": "Token authentication (which means PURELY restful backend) using Orchestrate.io as the database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankan Adhikari(Cha)",
+  "license": "GPL",
+  "dependencies": {
+    "bcryptjs": "^2.1.0",
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "orchestrate": "^0.4.3",
+    "passport": "^0.2.1",
+    "passport-http-bearer": "^1.0.1",
+    "q": "^1.2.0"
+  }
+}
